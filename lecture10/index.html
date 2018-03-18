@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="depInjApp">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+    <script src="app.js" charset="utf-8"></script>
+    <title>Lecture 10</title>
+  </head>
+  <body>
+
+    <h1>Lecture 10 - Protecting DI from Minification</h1>
+    <div ng-controller="depInjCtrlr">
+        <p>{{sayHello()}}</p>        
+
+        <input type="text" ng-model="name" ng-blur="upper();">
+    </div>
+      
+  </body>
+</html>
